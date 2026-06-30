@@ -10,39 +10,39 @@ type Member = {
 const team: Member[] = [
   {
     name: "Loris",
-    role: "Co-founder · Automation Lead",
-    bio: "Years spent building AI & automation workflows (Make, n8n, Python) and large-scale data-scraping pipelines for a 50M-visitor platform. Turns manual busywork into systems that run themselves.",
-    photo: null,
+    role: "Co-founder · Business & Growth",
+    bio: "Drives partnerships and growth. Years closing deals and building commercial automations (Make, n8n, Python) for a 50M-visitor platform — he bridges business goals and what automation can actually deliver.",
+    photo: "/team/loris.png",
   },
   {
     name: "Aymeric",
-    role: "Co-founder · AI Lead",
-    bio: "Heads the AI side — LLM integrations, AI agents, and document processing. Makes sure AI is used where it genuinely moves the needle, never as a gimmick.",
-    photo: null,
+    role: "Co-founder · Automation Lead",
+    bio: "Leads the technical build — n8n, Make, Python, and AI integrations. Turns messy manual processes into reliable, automated systems that run on their own.",
+    photo: "/team/aymeric.png",
   },
   {
-    name: "Camille",
-    role: "AI & Automation Consultant",
-    bio: "Maps each client's processes and turns business problems into AI-powered workflows that actually ship.",
-    photo: null,
+    name: "Paul",
+    role: "AI Engineer",
+    bio: "Builds the AI layer — LLM integrations, document processing, and autonomous agents with the right guardrails.",
+    photo: "/team/paul.png",
   },
   {
     name: "Hugo",
-    role: "Workflow Automation Specialist",
-    bio: "Lives in n8n and Make — connects your tools into reliable, monitored pipelines that quietly run the busywork.",
-    photo: null,
-  },
-  {
-    name: "Lucas",
     role: "Python & Data Engineer",
     bio: "Writes the custom Python when no-code hits its limits: scraping, data processing, and rock-solid API integrations.",
-    photo: null,
+    photo: "/team/hugo.png",
   },
   {
-    name: "Léa",
+    name: "Rym",
+    role: "AI & Automation Consultant",
+    bio: "Maps each client's processes and turns business problems into AI-powered workflows that actually ship.",
+    photo: "/team/rym.png",
+  },
+  {
+    name: "Maeva",
     role: "Client Success & Project Manager",
     bio: "Keeps projects on track and makes sure every automation delivers real, measured ROI for clients.",
-    photo: null,
+    photo: "/team/maeva.png",
   },
 ];
 

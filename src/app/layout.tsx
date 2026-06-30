@@ -44,11 +44,15 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
+    images: [
+      { url: "/logo.png", width: 1154, height: 1128, alt: `${site.name} logo` },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
