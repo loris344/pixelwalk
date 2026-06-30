@@ -26,9 +26,9 @@ export const formspreeEndpoint = `https://formspree.io/f/${site.formspreeId}`;
 
 // Anchor sections used by the nav.
 export const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Results", href: "#examples" },
-  { label: "How it works", href: "#process" },
-  { label: "Team", href: "#team" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Services", href: "/#services" },
+  { label: "Results", href: "/#examples" },
+  { label: "How it works", href: "/#process" },
+  { label: "Team", href: "/team/" },
+  { label: "FAQ", href: "/#faq" },
 ] as const;

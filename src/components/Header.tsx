@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-ink-950/70 backdrop-blur-xl">
       <div className="container-page flex h-16 items-center justify-between">
-        <a href="#top" className="flex items-center" aria-label="Pixel Walk home">
+        <a href="/" className="flex items-center" aria-label="Pixel Walk home">
           <Logo />
         </a>
 
@@ -28,7 +28,7 @@ export function Header() {
           ))}
         </nav>
 
-        <a href="#contact" className="btn-primary hidden md:inline-flex">
+        <a href="/#contact" className="btn-primary hidden md:inline-flex">
           Book a free audit
         </a>
 
@@ -59,7 +59,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="/#contact"
               onClick={() => setOpen(false)}
               className="btn-primary mt-3 w-full"
             >

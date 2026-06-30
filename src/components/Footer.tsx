@@ -39,7 +39,7 @@ export function Footer() {
               ))}
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="text-sm text-slate-400 transition-colors hover:text-white"
                 >
                   Contact
