@@ -24,12 +24,16 @@ const benefits = [
 ];
 
 const useCases = [
-  "Lead generation & outreach",
+  "AI customer support & chatbots",
+  "AI content & copywriting",
+  "AI research & outreach agents",
+  "Document & invoice processing",
+  "Lead gen, scoring & enrichment",
+  "CRM & data syncing",
+  "Reporting & live dashboards",
   "Client onboarding",
-  "Invoicing & finance ops",
-  "Customer support triage",
-  "Reporting & analytics",
-  "Data entry & syncing",
+  "Web scraping & monitoring",
+  "Finance & ops workflows",
 ];
 
 export function Why() {
@@ -69,16 +73,26 @@ export function Why() {
           <div className="lg:pl-6">
             <div className="rounded-2xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-transparent p-8">
               <h3 className="font-mono text-xs uppercase tracking-widest text-sky-400">
-                What we automate
+                What we can automate
               </h3>
-              <ul className="mt-6 space-y-4">
+              <p className="mt-2 text-sm text-slate-400">
+                A sample, not a limit — if a human does it on repeat, we can
+                probably automate it.
+              </p>
+              <ul className="mt-6 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2">
                 {useCases.map((u) => (
-                  <li key={u} className="flex items-center gap-3 text-slate-200">
-                    <CheckCircle2 size={18} className="shrink-0 text-sky-400" />
+                  <li
+                    key={u}
+                    className="flex items-center gap-2.5 text-sm text-slate-200"
+                  >
+                    <CheckCircle2 size={16} className="shrink-0 text-sky-400" />
                     <span>{u}</span>
                   </li>
                 ))}
               </ul>
+              <p className="mt-4 text-sm font-medium text-sky-400">
+                + anything else repetitive in your stack →
+              </p>
 
               <div className="mt-8 grid grid-cols-2 gap-4 border-t border-white/10 pt-8">
                 <Stat value="10+ hrs" label="saved per person / week" />

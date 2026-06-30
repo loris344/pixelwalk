@@ -1,7 +1,9 @@
 import {
   Zap,
   FileText,
-  Headphones,
+  MessagesSquare,
+  PenLine,
+  Bot,
   UserPlus,
   ArrowRight,
   TrendingUp,
@@ -22,43 +24,63 @@ type Example = {
 const examples: Example[] = [
   {
     icon: Zap,
-    title: "Instant lead response",
+    title: "Instant AI lead response",
     scenario:
-      "New leads from your ads, website, or forms get qualified and replied to automatically — before a competitor even picks up the phone.",
+      "Every new lead is qualified, enriched, and answered by AI in under two minutes — before a competitor even calls back.",
     before: { label: "Before", value: "~6 h to first reply" },
     after: { label: "After", value: "Under 2 min, 24/7" },
     money: "+€6,000 / month",
-    math: "≈ 20 leads/mo that used to go cold × 15% close rate × €2,000 deal. Leads contacted in under 5 min convert up to 3× more.",
+    math: "≈ 20 leads/mo that used to go cold × 15% close × €2,000 deal. Replies under 5 min convert up to 3× more.",
+  },
+  {
+    icon: Bot,
+    title: "AI outreach agent",
+    scenario:
+      "An autonomous AI agent researches prospects, writes genuinely personalized messages, and books qualified meetings — while you sleep.",
+    before: { label: "Before", value: "~20 manual emails / day" },
+    after: { label: "After", value: "200+ personalized / day" },
+    money: "+€8,000 / month pipeline",
+    math: "More qualified meetings booked without hiring an SDR — outreach that scales itself.",
+  },
+  {
+    icon: PenLine,
+    title: "AI content engine",
+    scenario:
+      "AI writes on-brand SEO articles, product descriptions, and social posts at scale — drafted, formatted, and ready to publish.",
+    before: { label: "Before", value: "~1 article / week" },
+    after: { label: "After", value: "15–20 / month, on autopilot" },
+    money: "~€3,000 / month saved",
+    math: "Less spend on freelancers, plus compounding organic traffic month after month.",
   },
   {
     icon: FileText,
-    title: "Invoice & document processing",
+    title: "AI document processing",
     scenario:
-      "Invoices and receipts are read by AI, the data is extracted and pushed straight into your accounting tool. Your team just approves.",
-    before: { label: "Before", value: "~15 min / invoice, by hand" },
-    after: { label: "After", value: "~30 sec, automated" },
+      "AI reads invoices, contracts, and receipts, extracts the data, and files it straight into your tools. Your team just approves.",
+    before: { label: "Before", value: "~15 min / doc, by hand" },
+    after: { label: "After", value: "~30 sec, AI-automated" },
     money: "€1,800 / month saved",
-    math: "≈ 300 invoices/mo × 14 min saved × €25/h of admin time — plus far fewer costly entry errors.",
+    math: "≈ 300 docs/mo × 14 min saved × €25/h — with far fewer costly entry errors.",
   },
   {
-    icon: Headphones,
-    title: "Customer support triage",
+    icon: MessagesSquare,
+    title: "AI customer support",
     scenario:
-      "Incoming tickets are sorted, prioritized, and the repetitive ones get instant AI-drafted answers — your team only handles what truly needs a human.",
+      "An AI assistant answers common questions instantly and drafts replies for the rest, so your team only handles what truly needs a human.",
     before: { label: "Before", value: "Hours before first reply" },
     after: { label: "After", value: "70% handled instantly" },
     money: "€35,000 / year",
-    math: "That's the support hire you don't need to make — handle 2× the volume with the same team.",
+    math: "The support hire you don't need to make — 2× the volume, same team.",
   },
   {
     icon: UserPlus,
-    title: "Client onboarding",
+    title: "Client onboarding on autopilot",
     scenario:
       "One workflow creates accounts across your tools, sends the welcome sequence, collects documents, and chases what's missing — automatically.",
     before: { label: "Before", value: "2–3 days, steps forgotten" },
     after: { label: "After", value: "A few hours, nothing missed" },
     money: "€1,500 / month + faster cash-in",
-    math: "Less admin per new client, and clients are set up (and paying) sooner — money in the door faster.",
+    math: "Less admin per new client, and clients are set up (and paying) sooner.",
   },
 ];
 
@@ -73,8 +95,9 @@ export function Examples() {
           </span>
           <h2 className="heading mt-5">What automation puts back in your pocket</h2>
           <p className="mt-4 text-lg text-slate-400">
-            Forget the buzzwords. Here&apos;s what a few of our automations do in
-            practice — and what they&apos;re worth to your bottom line.
+            Forget the buzzwords. Here&apos;s what a few of our AI automations do
+            in practice — just a sample of what&apos;s possible — and what
+            they&apos;re worth to your bottom line.
           </p>
         </div>
 
