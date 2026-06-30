@@ -18,7 +18,7 @@ const services: Service[] = [
   {
     icon: Workflow,
     title: "Workflow Automation",
-    desc: "Connect your apps and let work flow on its own. We design and build robust pipelines in n8n, Make, and Zapier — from lead routing to invoicing.",
+    desc: "Connect your apps and let work flow on its own. We design and build robust pipelines in n8n, Make, and Zapier, from lead routing to invoicing.",
   },
   {
     icon: BrainCircuit,
@@ -28,7 +28,7 @@ const services: Service[] = [
   {
     icon: Terminal,
     title: "Custom Python Automation",
-    desc: "When no-code hits its limit, we write custom Python — scraping, data processing, API integrations, and scheduled jobs that just run.",
+    desc: "When no-code hits its limit, we write custom Python: scraping, data processing, API integrations, and scheduled jobs that just run.",
   },
   {
     icon: Bot,
@@ -38,12 +38,12 @@ const services: Service[] = [
   {
     icon: Network,
     title: "Systems Integration",
-    desc: "Make your stack talk. We connect CRMs, databases, spreadsheets, and APIs into one seamless system — no more copy-paste between tools.",
+    desc: "Make your stack talk. We connect CRMs, databases, spreadsheets, and APIs into one seamless system. No more copy-paste between tools.",
   },
   {
     icon: BarChart3,
     title: "Data & Reporting",
-    desc: "Automated data pipelines and live dashboards so you always know what's happening — without anyone pulling reports by hand.",
+    desc: "Automated data pipelines and live dashboards so you always know what's happening, without anyone pulling reports by hand.",
   },
 ];
 
@@ -57,7 +57,7 @@ export function Services() {
             Automations that do the busywork, so your team doesn&apos;t have to
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            From simple time-savers to full AI-driven systems — we build the
+            From simple time-savers to full AI-driven systems. We build the
             automation layer that runs your operations quietly in the background.
           </p>
         </div>

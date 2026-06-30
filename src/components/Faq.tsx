@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "What tools and platforms do you work with?",
-    a: "We work across n8n, Make, and Zapier for no-code/low-code automation, plus custom Python when you need full control. We integrate with most CRMs, databases, spreadsheets, and any tool that exposes an API or webhook — and we plug in AI models like OpenAI where it adds value.",
+    a: "We work across n8n, Make, and Zapier for no-code/low-code automation, plus custom Python when you need full control. We integrate with most CRMs, databases, spreadsheets, and any tool that exposes an API or webhook, and we plug in AI models like OpenAI where it adds value.",
   },
   {
     q: "Do I need any technical knowledge?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "What if my tools aren't natively supported?",
-    a: "That's exactly where custom Python and API integrations come in. If a tool has any way to connect — API, webhook, export — we can almost always automate it.",
+    a: "That's exactly where custom Python and API integrations come in. If a tool has any way to connect (API, webhook, export), we can almost always automate it.",
   },
   {
     q: "Do you offer ongoing support?",

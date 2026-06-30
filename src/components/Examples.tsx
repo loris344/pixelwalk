@@ -18,7 +18,7 @@ type Example = {
   before: { label: string; value: string };
   after: { label: string; value: string };
   money: string; // headline financial gain
-  math: string; // how we get there — builds credibility
+  math: string; // how we get there, builds credibility
 };
 
 const examples: Example[] = [
@@ -26,7 +26,7 @@ const examples: Example[] = [
     icon: Zap,
     title: "Instant AI lead response",
     scenario:
-      "Every new lead is qualified, enriched, and answered by AI in under two minutes — before a competitor even calls back.",
+      "Every new lead is qualified, enriched, and answered by AI in under two minutes, before a competitor even calls back.",
     before: { label: "Before", value: "~6 h to first reply" },
     after: { label: "After", value: "Under 2 min, 24/7" },
     money: "+€6,000 / month",
@@ -36,19 +36,19 @@ const examples: Example[] = [
     icon: Bot,
     title: "AI outreach agent",
     scenario:
-      "An autonomous AI agent researches prospects, writes genuinely personalized messages, and books qualified meetings — while you sleep.",
+      "An autonomous AI agent researches prospects, writes genuinely personalized messages, and books qualified meetings while you sleep.",
     before: { label: "Before", value: "~20 manual emails / day" },
     after: { label: "After", value: "200+ personalized / day" },
     money: "+€8,000 / month pipeline",
-    math: "More qualified meetings booked without hiring an SDR — outreach that scales itself.",
+    math: "More qualified meetings booked without hiring an SDR. Outreach that scales itself.",
   },
   {
     icon: PenLine,
     title: "AI content engine",
     scenario:
-      "AI writes on-brand SEO articles, product descriptions, and social posts at scale — drafted, formatted, and ready to publish.",
+      "AI writes on-brand SEO articles, product descriptions, and social posts at scale, drafted, formatted, and ready to publish.",
     before: { label: "Before", value: "~1 article / week" },
-    after: { label: "After", value: "15–20 / month, on autopilot" },
+    after: { label: "After", value: "15-20 / month, on autopilot" },
     money: "~€3,000 / month saved",
     math: "Less spend on freelancers, plus compounding organic traffic month after month.",
   },
@@ -60,7 +60,7 @@ const examples: Example[] = [
     before: { label: "Before", value: "~15 min / doc, by hand" },
     after: { label: "After", value: "~30 sec, AI-automated" },
     money: "€1,800 / month saved",
-    math: "≈ 300 docs/mo × 14 min saved × €25/h — with far fewer costly entry errors.",
+    math: "≈ 300 docs/mo × 14 min saved × €25/h, with far fewer costly entry errors.",
   },
   {
     icon: MessagesSquare,
@@ -70,14 +70,14 @@ const examples: Example[] = [
     before: { label: "Before", value: "Hours before first reply" },
     after: { label: "After", value: "70% handled instantly" },
     money: "€35,000 / year",
-    math: "The support hire you don't need to make — 2× the volume, same team.",
+    math: "The support hire you don't need to make. 2× the volume, same team.",
   },
   {
     icon: UserPlus,
     title: "Client onboarding on autopilot",
     scenario:
-      "One workflow creates accounts across your tools, sends the welcome sequence, collects documents, and chases what's missing — automatically.",
-    before: { label: "Before", value: "2–3 days, steps forgotten" },
+      "One workflow creates accounts across your tools, sends the welcome sequence, collects documents, and chases what's missing, automatically.",
+    before: { label: "Before", value: "2-3 days, steps forgotten" },
     after: { label: "After", value: "A few hours, nothing missed" },
     money: "€1,500 / month + faster cash-in",
     math: "Less admin per new client, and clients are set up (and paying) sooner.",
@@ -96,7 +96,7 @@ export function Examples() {
           <h2 className="heading mt-5">What automation puts back in your pocket</h2>
           <p className="mt-4 text-lg text-slate-400">
             Forget the buzzwords. Here&apos;s what a few of our AI automations do
-            in practice — just a sample of what&apos;s possible — and what
+            in practice (just a sample of what&apos;s possible) and what
             they&apos;re worth to your bottom line.
           </p>
         </div>
@@ -108,9 +108,9 @@ export function Examples() {
           </span>
           <p className="text-sm leading-relaxed text-slate-300 sm:text-base">
             <span className="font-semibold text-white">The hidden cost of manual work:</span>{" "}
-            most teams burn 10–20 hours a week on tasks software could do. At ~€40
+            most teams burn 10-20 hours a week on tasks software could do. At ~€40
             an hour, that&apos;s{" "}
-            <span className="font-semibold text-sky-400">€20,000–€40,000 a year</span>{" "}
+            <span className="font-semibold text-sky-400">€20,000-€40,000 a year</span>{" "}
             quietly walking out of your business. Here&apos;s how we win it back.
           </p>
         </div>
@@ -167,7 +167,7 @@ export function Examples() {
         </div>
 
         <p className="mt-8 text-xs text-slate-500">
-          Illustrative figures based on typical automation outcomes — your exact
+          Illustrative figures based on typical automation outcomes. Your exact
           numbers depend on your processes and volumes. We measure the real ROI
           for your business during your free audit.
         </p>

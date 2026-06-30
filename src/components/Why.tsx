@@ -19,7 +19,7 @@ const benefits = [
   {
     icon: Wrench,
     title: "Built to last",
-    desc: "Documented, monitored, and maintainable systems — not fragile hacks that break next week.",
+    desc: "Documented, monitored, and maintainable systems, not fragile hacks that break next week.",
   },
 ];
 
@@ -76,7 +76,7 @@ export function Why() {
                 What we can automate
               </h3>
               <p className="mt-2 text-sm text-slate-400">
-                A sample, not a limit — if a human does it on repeat, we can
+                A sample, not a limit. If a human does it on repeat, we can
                 probably automate it.
               </p>
               <ul className="mt-6 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2">

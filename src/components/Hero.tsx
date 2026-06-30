@@ -23,7 +23,7 @@ export function Hero() {
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
               Pixel Walk builds AI-powered automations that connect your tools,
               eliminate manual tasks, and free your team to focus on what matters.
-              n8n, Python, and custom AI — designed, built, and maintained for you.
+              n8n, Python, and custom AI. Designed, built, and maintained for you.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

@@ -11,19 +11,19 @@ const team: Member[] = [
   {
     name: "Loris",
     role: "Co-founder · Business & Growth",
-    bio: "Drives partnerships and growth. Years closing deals and building commercial automations (Make, n8n, Python) for a 50M-visitor platform — he bridges business goals and what automation can actually deliver.",
+    bio: "Drives partnerships and growth. Years closing deals and building commercial automations (Make, n8n, Python) for a 50M-visitor platform. He bridges business goals and what automation can actually deliver.",
     photo: "/team/loris.png",
   },
   {
     name: "Aymeric",
     role: "Co-founder · Automation Lead",
-    bio: "Leads the technical build — n8n, Make, Python, and AI integrations. Turns messy manual processes into reliable, automated systems that run on their own.",
+    bio: "Leads the technical build: n8n, Make, Python, and AI integrations. Turns messy manual processes into reliable, automated systems that run on their own.",
     photo: "/team/aymeric.png",
   },
   {
     name: "Paul",
     role: "AI Engineer",
-    bio: "Builds the AI layer — LLM integrations, document processing, and autonomous agents with the right guardrails.",
+    bio: "Builds the AI layer: LLM integrations, document processing, and autonomous agents with the right guardrails.",
     photo: "/team/paul.png",
   },
   {
@@ -54,7 +54,7 @@ export function Team() {
           <span className="eyebrow">Team</span>
           <h2 className="heading mt-5">The people behind Pixel Walk</h2>
           <p className="mt-4 text-lg text-slate-400">
-            A small, hands-on team of automation and AI builders based in France —
+            A small, hands-on team of automation and AI builders based in France,
             equal parts engineers and business minds.
           </p>
         </div>

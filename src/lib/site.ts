@@ -14,7 +14,7 @@ export const site = {
   // 3. Copy the form's ID (the part after /f/ in your endpoint) and paste it below.
   formspreeId: "mbdvaadj",
 
-  // Optional social links — leave empty to hide.
+  // Optional social links. Leave empty to hide.
   social: {
     linkedin: "",
     x: "",

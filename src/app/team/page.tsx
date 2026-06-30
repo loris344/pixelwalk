@@ -6,7 +6,7 @@ import { Team } from "@/components/Team";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the people behind Pixel Walk — a small, hands-on team of automation and AI builders based in France.",
+    "Meet the people behind Pixel Walk, a small, hands-on team of automation and AI builders based in France.",
   alternates: { canonical: "/team" },
 };
 

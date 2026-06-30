@@ -19,7 +19,7 @@ export function Contact() {
             </h2>
             <p className="mt-4 text-lg text-slate-400">
               Tell us about the manual work slowing your team down. We&apos;ll come
-              back with concrete automation ideas and the time they&apos;d save — no
+              back with concrete automation ideas and the time they&apos;d save. No
               cost, no pressure.
             </p>
 
