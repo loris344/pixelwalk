@@ -12,7 +12,7 @@ export const site = {
   // 1. Create a free account at https://formspree.io
   // 2. Create a new form, set the destination email (e.g. hello@pixel-walk.com)
   // 3. Copy the form's ID (the part after /f/ in your endpoint) and paste it below.
-  formspreeId: "YOUR_FORMSPREE_ID",
+  formspreeId: "mbdvaadj",
 
   // Optional social links — leave empty to hide.
   social: {

@@ -10,7 +10,7 @@ export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
 
-  const configured = site.formspreeId !== "YOUR_FORMSPREE_ID";
+  const configured = (site.formspreeId as string) !== "YOUR_FORMSPREE_ID";
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
