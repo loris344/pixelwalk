@@ -6,7 +6,7 @@ import { site, formspreeEndpoint } from "@/lib/site";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export function ContactForm() {
+export function ContactForm({ source }: { source?: string } = {}) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
 
@@ -58,6 +58,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      {source && <input type="hidden" name="source" value={source} />}
       {!configured && (
         <p className="rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-xs text-slate-400">
           You can also reach us directly at{" "}
