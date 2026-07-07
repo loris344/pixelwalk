@@ -22,7 +22,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Automation for Travel Agencies",
   description:
-    "AI automations that help travel agencies and tour operators book more trips with less admin. Built by a team with years of hands-on experience inside the travel industry.",
+    "AI automations that help travel agencies and tour operators book more trips with less admin. Instant inquiry replies, automated quotes and itineraries, booking sync, and more.",
   // Campaign landing page: reached via the cold-email link, not meant to be indexed.
   robots: { index: false, follow: false },
   alternates: { canonical: "/travel" },
@@ -93,8 +93,8 @@ function Hero() {
           <p className="mx-auto mt-6 max-w-2xl text-lg font-medium leading-relaxed text-slate-100 [text-shadow:0_1px_12px_rgb(0_0_0_/_0.6)]">
             We build AI automations that answer inquiries in seconds, draft quotes
             and itineraries, sync your bookings, and follow up with travellers. So
-            your team sells more and admins less. Built by a founder who spent
-            years inside the travel industry.
+            your team sells more and admins less. Purpose-built for travel
+            agencies and tour operators.
           </p>
 
           <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
@@ -108,7 +108,7 @@ function Hero() {
           </div>
 
           <p className="mt-6 font-mono text-xs uppercase tracking-widest text-slate-400">
-            Deep roots in travel &amp; partnerships
+            AI &amp; workflow automation for travel agencies
           </p>
         </div>
       </div>
@@ -119,10 +119,10 @@ function Hero() {
 /* ---------- Results band (financial + time, up top) ---------- */
 function ResultsBand() {
   const stats = [
-    { value: "+€8,000 / mo", label: "in bookings won back by replying first" },
+    { value: "+$8,000 / mo", label: "in bookings won back by replying first" },
     { value: "15+ hrs / week", label: "saved on admin, quoting & data entry" },
     { value: "45 → 5 min", label: "to build a quote or itinerary" },
-    { value: "€35,000 / yr", label: "the support hire you can skip" },
+    { value: "$35,000 / yr", label: "the support hire you can skip" },
   ];
   return (
     <section className="border-b border-white/5 py-14">
@@ -154,9 +154,9 @@ function ResultsBand() {
 /* ---------- Trust bar ---------- */
 function TrustBar() {
   const items = [
-    { value: "Travel-native", label: "years spent inside the industry" },
-    { value: "50M+", label: "visitor platform, seen from the inside" },
-    { value: "Done-for-you", label: "built and maintained" },
+    { value: "Done-for-you", label: "we build and maintain it" },
+    { value: "Weeks", label: "to go live, not months" },
+    { value: "Free audit", label: "see the ROI before you commit" },
     { value: "n8n · Python · AI", label: "the right tool per job" },
   ];
   return (
@@ -287,8 +287,8 @@ function WhyUs() {
   const points = [
     {
       icon: Plane,
-      title: "We come from travel",
-      desc: "Our co-founder spent years inside a travel platform with 50M+ annual visitors, running partnerships with major travel brands. We know your workflows, your seasonality, and your margins.",
+      title: "Built for how travel works",
+      desc: "We build around the way agencies actually operate: inquiries, quotes, suppliers, seasonality, and margins. Automations that fit your workflow, not the other way around.",
     },
     {
       icon: Wrench,
@@ -306,7 +306,7 @@ function WhyUs() {
       <div className="container-page">
         <div className="mx-auto max-w-2xl text-center">
           <span className="eyebrow">Why travel agencies pick us</span>
-          <h2 className="heading mt-5">Automation partners who actually know travel</h2>
+          <h2 className="heading mt-5">An automation partner built for travel agencies</h2>
         </div>
         <div className="mt-14 grid gap-5 md:grid-cols-3">
           {points.map((p) => (
