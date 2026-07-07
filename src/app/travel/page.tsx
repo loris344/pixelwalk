@@ -22,7 +22,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Automation for Travel Agencies",
   description:
-    "AI automations that help travel agencies and tour operators book more trips with less admin. Built by a team that scaled a travel platform to 50M+ visitors.",
+    "AI automations that help travel agencies and tour operators book more trips with less admin. Built by a team with years of hands-on experience inside the travel industry.",
   // Campaign landing page: reached via the cold-email link, not meant to be indexed.
   robots: { index: false, follow: false },
   alternates: { canonical: "/travel" },
@@ -34,6 +34,7 @@ export default function TravelLanding() {
       <CampaignHeader />
       <main>
         <Hero />
+        <ResultsBand />
         <TrustBar />
         <Automations />
         <Results />
@@ -67,7 +68,17 @@ function CampaignHeader() {
 function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="bg-grid absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]" />
+      {/* Background: sunset plane photo, dimmed to keep the dark theme + readable text */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/avion.jpg"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover object-center opacity-40"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink-950/85 via-ink-950/75 to-ink-950" />
+      <div className="absolute inset-0 bg-ink-950/30" />
+
       <div className="container-page relative py-20 sm:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow">
@@ -80,11 +91,11 @@ function Hero() {
             <span className="text-gradient">booked trips.</span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
             We build AI automations that answer inquiries in seconds, draft quotes
             and itineraries, sync your bookings, and follow up with travellers. So
-            your team sells more and admins less. Built by people who scaled a
-            travel platform to 50M+ visitors.
+            your team sells more and admins less. Built by a founder who spent
+            years inside the travel industry.
           </p>
 
           <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
@@ -97,7 +108,7 @@ function Hero() {
             </a>
           </div>
 
-          <p className="mt-6 font-mono text-xs uppercase tracking-widest text-slate-500">
+          <p className="mt-6 font-mono text-xs uppercase tracking-widest text-slate-400">
             Deep roots in travel &amp; partnerships
           </p>
         </div>
@@ -106,11 +117,46 @@ function Hero() {
   );
 }
 
+/* ---------- Results band (financial + time, up top) ---------- */
+function ResultsBand() {
+  const stats = [
+    { value: "+€8,000 / mo", label: "in bookings won back by replying first" },
+    { value: "15+ hrs / week", label: "saved on admin, quoting & data entry" },
+    { value: "45 → 5 min", label: "to build a quote or itinerary" },
+    { value: "€35,000 / yr", label: "the support hire you can skip" },
+  ];
+  return (
+    <section className="border-b border-white/5 py-14">
+      <div className="container-page">
+        <p className="text-center font-mono text-xs uppercase tracking-widest text-sky-400">
+          What it&apos;s worth to your agency
+        </p>
+        <div className="mt-8 grid grid-cols-2 gap-6 lg:grid-cols-4">
+          {stats.map((s) => (
+            <div key={s.label} className="text-center">
+              <p className="text-2xl font-bold text-gradient sm:text-3xl">
+                {s.value}
+              </p>
+              <p className="mx-auto mt-2 max-w-[16rem] text-sm text-slate-400">
+                {s.label}
+              </p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-8 text-center text-xs text-slate-500">
+          Illustrative figures based on typical outcomes. We measure the real
+          numbers for your agency during the free audit.
+        </p>
+      </div>
+    </section>
+  );
+}
+
 /* ---------- Trust bar ---------- */
 function TrustBar() {
   const items = [
-    { value: "50M+", label: "annual visitors scaled" },
-    { value: "Travel-native", label: "we speak your business" },
+    { value: "Travel-native", label: "years spent inside the industry" },
+    { value: "50M+", label: "visitor platform, seen from the inside" },
     { value: "Done-for-you", label: "built and maintained" },
     { value: "n8n · Python · AI", label: "the right tool per job" },
   ];
@@ -223,10 +269,12 @@ function Results() {
               </span>{" "}
               Travellers book the agency that answers first. Automating inquiries,
               quotes, and follow-ups typically hands a small team back{" "}
+              <span className="font-semibold text-sky-400">15+ hours a week</span>{" "}
+              and{" "}
               <span className="font-semibold text-sky-400">
-                15+ hours a week
+                thousands of euros
               </span>{" "}
-              and lifts booking rates, without adding headcount.
+              in bookings that used to slip away, without adding headcount.
             </p>
           </div>
         </div>
@@ -241,7 +289,7 @@ function WhyUs() {
     {
       icon: Plane,
       title: "We come from travel",
-      desc: "We scaled a travel platform to 50M+ annual visitors and ran partnerships with major travel brands. We know your workflows, your seasonality, and your margins.",
+      desc: "Our co-founder spent years inside a travel platform with 50M+ annual visitors, running partnerships with major travel brands. We know your workflows, your seasonality, and your margins.",
     },
     {
       icon: Wrench,

@@ -11,7 +11,7 @@ const team: Member[] = [
   {
     name: "Loris",
     role: "Co-founder · Business & Growth",
-    bio: "Drives partnerships and growth. Years closing deals and building commercial automations (Make, n8n, Python) for a 50M-visitor platform. He bridges business goals and what automation can actually deliver.",
+    bio: "Drives partnerships and growth. Spent years at a travel platform with 50M+ annual visitors, closing deals and building commercial automations (Make, n8n, Python). He bridges business goals and what automation can actually deliver.",
     photo: "/team/loris.png",
   },
   {
