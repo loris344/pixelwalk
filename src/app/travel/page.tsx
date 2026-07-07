@@ -74,10 +74,9 @@ function Hero() {
         src="/avion.jpg"
         alt=""
         aria-hidden="true"
-        className="absolute inset-0 h-full w-full object-cover object-center opacity-40"
+        className="absolute inset-0 h-full w-full object-cover object-center opacity-90"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-ink-950/85 via-ink-950/75 to-ink-950" />
-      <div className="absolute inset-0 bg-ink-950/30" />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink-950/70 via-ink-950/40 to-ink-950/95" />
 
       <div className="container-page relative py-20 sm:py-28">
         <div className="mx-auto max-w-3xl text-center">
@@ -91,7 +90,7 @@ function Hero() {
             <span className="text-gradient">booked trips.</span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
+          <p className="mx-auto mt-6 max-w-2xl text-lg font-medium leading-relaxed text-slate-100 [text-shadow:0_1px_12px_rgb(0_0_0_/_0.6)]">
             We build AI automations that answer inquiries in seconds, draft quotes
             and itineraries, sync your bookings, and follow up with travellers. So
             your team sells more and admins less. Built by a founder who spent
