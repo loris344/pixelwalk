@@ -86,8 +86,8 @@ function Hero() {
           </span>
 
           <h1 className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Turn travel busywork into{" "}
-            <span className="text-gradient">booked trips.</span>
+            Automate the busywork.{" "}
+            <span className="text-gradient">Book more trips.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg font-medium leading-relaxed text-slate-100 [text-shadow:0_1px_12px_rgb(0_0_0_/_0.6)]">
